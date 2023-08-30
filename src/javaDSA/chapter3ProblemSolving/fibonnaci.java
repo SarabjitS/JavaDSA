@@ -17,7 +17,7 @@ public class fibonnaci {
             secondNumber = sum;
         }
         System.out.println("The " + number + "number in series is " + sum);
-
+w
     }
 
 }

@@ -1,14 +1,16 @@
 package javaDSA.chapter4Pattern;
 import java.util.Scanner;
-public class pattern1 {
+public class pattern2 {
     public static void main(String[] args) {
+
+
         Scanner sc = new Scanner(System.in);
-        int row = sc.nextInt();
-        for(int i = 0; i<=row;i++){
-            for(int j = 0; j<i; j++){
+        int num = sc.nextInt();
+        for (int i = 0; i < num; i++) {
+            for(int j=num-i; j>0; j--){
                 System.out.print("*\t");
             }
-            System.out.println("");
+            System.out.println();
         }
 
     }
